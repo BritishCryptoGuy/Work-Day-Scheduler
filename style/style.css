@@ -21,6 +21,15 @@ textarea {
   border-bottom: 10px solid black;
 }
 
+#jumboTime {
+  position: absolute;
+  padding: 8px;
+  top: 0px;
+  left: 0px;
+  border: dashed 1px black;
+  color: white;
+  background-color: black;
+}
 .description {
   white-space: pre-wrap;
 }
