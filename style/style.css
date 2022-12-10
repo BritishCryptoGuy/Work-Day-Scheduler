@@ -38,7 +38,7 @@ textarea {
   flex-direction: column;
 }
 .timeblock {
-  border: 0.5px solid grey;
+  /* border: 0.5px solid grey; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -68,6 +68,8 @@ label {
 } */
 .blockInput {
   width: 80%;
+  background-color: lightgray;
+  border-top: 1px solid white;
 }
 .saveDiv {
   display: flex;
@@ -78,6 +80,23 @@ label {
   border-left: 2px solid grey;
   background-color: #06aed5;
   color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.saveDiv:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+  color: #06aed5;
+  background-color: white;
+  box-shadow: 5px 5px 10px 5px #06aed5;
+}
+i {
+  height: 100%;
+  width: 100%;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 10px 4px grey;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
@@ -103,15 +122,10 @@ label {
   color: white;
 }
 
-.saveBtn {
+/* .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
   color: white;
-}
-
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all 0.3s ease-in-out;
-}
+} */
