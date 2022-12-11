@@ -1,87 +1,45 @@
-# Third-Party APIs: Work Day Scheduler
+# Work Day Scheduler
 
-## Your Task
+## Short description
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+The objective of this project is to create a simple work day Scheduler. The scheduler will allow the user to save events for each hour of the day by entering in text to the relevant fields on the webpage. From there this information will be saved to storage and presented to the user on refresh of the page.
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+The code itself utilises both moment.js(for accurate date/times) and also jQuery.
 
-## User Story
+### User Story
 
-```md
+```
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 ```
 
-## Acceptance Criteria
+### Acceptance Criteria
 
-The app should:
+The website/app will load and function as intended. The ways in which it should work are as follows:
 
-* Display the current day at the top of the calender when a user opens the planner.
- 
-* Present timeblocks for standard business hours when the user scrolls down.
- 
-* Color-code each timeblock based on past, present, and future when the timeblock is viewed.
- 
-* Allow a user to enter an event when they click a timeblock
+- Display the current day at the top of the calender when a user opens the planner
 
-* Save the event in local storage when the save button is clicked in that timeblock.
+- Displays the current time in the Jumbotron
 
-* Persist events between refreshes of a page
+- Present timeblocks for standard business hours when the user scrolls down
 
-The following animation demonstrates the application functionality:
+- Color-code each timeblock based on past, present, and future when the timeblock is viewed
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./images/05-third-party-apis-homework-demo.gif)
+- Allow a user to enter an event when they click a timeblock
 
+- Save the event in local storage when the save button is clicked in that timeblock
 
-## Grading Requirements
+- Persist events between refreshes of a page
 
-This homework is graded based on the following criteria: 
+### Screenshot of completed site
 
-### Technical Acceptance Criteria: 40%
+The following image shows the web applications finished appearance
 
-* Satisfies all of the above acceptance criteria plus the following:
+![The screenshot displays the website. It shows both the time and the current date in the jumbotron. It also shows a number of timeblocks with information filled in. Also on display is the localStorage saved notification](/images/WorkDaySchedulerSS.png)
 
-  * Uses a date utility library to work with date and time
+### License
 
-### Deployment: 32%
+Please refer to license in the Repo
 
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the homework instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
----
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+# Website Link
