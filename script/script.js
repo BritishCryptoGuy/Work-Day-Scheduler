@@ -5,7 +5,7 @@ const container = $(".container");
 const saveBtn = $(".far");
 const input = $(".blockInput");
 const storageAlert = $("#storageNotify");
-let time = 0;
+let time;
 let date;
 
 //saveBtn event listener. On clicking saveBtn this saves inputted value to localStorage. Also displays alert
@@ -37,17 +37,24 @@ function start() {
     }
   }
 }
-//On document ready start function is called
+
+//setDateTime function. When called sets Date and Time + updates UI
+function setDateTime() {
+  date = moment().format("dddd, MMMM Do");
+  time = moment().format("HH.mm a");
+  jumboTime.text(time);
+  currentDayJumbo.text(date);
+  $("#currentDay:contains('December 25th')").css("color", "red");
+}
+
+//On document ready below functions are called
 $(document).ready(function () {
+  setDateTime();
   start();
 });
 
 //Date and time setInterval function
 setInterval(function () {
-  date = moment().format("dddd, MMMM Do");
-  time = moment().format("HH.mm a");
-  jumboTime.text(time);
-  currentDayJumbo.text(date);
-  $("#currentDay:contains('December 25th')").css("color", "red"); //Christmas
+  setDateTime();
 }),
   1000;
