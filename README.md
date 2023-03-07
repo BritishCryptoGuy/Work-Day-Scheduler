@@ -2,7 +2,7 @@
 
 ## Short description
 
-The objective of this project is to create a simple work day Scheduler. The scheduler will allow the user to save events for each hour of the day by entering in text to the relevant fields on the webpage. From there this information will be saved to storage and presented to the user on refresh of the page.
+This website is a plain and simple work day Scheduler. The scheduler will allow the user to save events for each hour of the day by entering in text to the relevant fields on the webpage. From there this information will be saved to storage and presented to the user on refresh of the page. In future it may be turned into a calendar based Scheduler. 
 
 The code itself utilises both moment.js(for accurate date/times) and also jQuery.
 
